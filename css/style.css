@@ -206,9 +206,9 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd {
 }
 body {
 	font-family: Georgia, "Times New Roman", Times, serif;
-	padding-top: 60px;
+	padding-top: 90px;
 	color: #535455;
-	line-height: 140%;
+	line-height: 150%;
 }
 a {
 	text-decoration: none;
@@ -242,24 +242,54 @@ h2 {
 #main {
 	text-align: center;
 }
-#options {
-	margin-top: 90px;
+#description {
+	margin-top: 45px;
 	width: 800px;
 	margin-right: auto;
 	margin-left: auto;
+	text-align: left;
+	border-bottom: 1px dotted #979898;
+	padding-bottom: 1em;
+}
+#description p{
+	padding-bottom: 1em;
+}
+#more_description {
+	
+	font-size: 12px;
+	-moz-column-count:3; /* Firefox */
+	-webkit-column-count:3; /* Safari and Chrome */
+	column-count:3;
+	-moz-column-gap:41px; /* Firefox */
+	-webkit-column-gap:41px; /* Safari and Chrome */
+	column-gap:41px;
+	border-top: 1px dotted #979898;
+	margin-top: 1em;
+		padding-bottom: 2em;
+		vertical-align: to;
+		margin-bottom: -15px;
+		padding-top: 2em;
+	} 
+#options {
+	width: 800px;
+	margin: 45px auto;
 }
 .option {
 	display: inline-block;
-	width: 27%;
+	width: 236px;
 	vertical-align: top;
 	float: left;
-	padding-left: 3%;
-	padding-right: 3%;
+	padding-left: 22px;
+	padding-right: 22px;
 	height: 200px;
 	border-right: 1px dotted #979898;
 }
+.option:first-child {
+	padding-left: 0px;
+}
 .option:last-child {
 	border-right-style: none;
+	padding-right: 0px;
 }
 .option ul {
 	text-align: left;
@@ -271,10 +301,7 @@ h2 {
 footer {
 	display: block;
 	text-align: center;
-	position: absolute;
-	bottom: 60px;
-	right: 0;
-	left: 0;
+	margin-bottom: 45px;
 }
 /* =============================================================================
    Non-semantic helper classes
