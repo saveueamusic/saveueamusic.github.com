@@ -253,7 +253,7 @@ h2 {
 	padding-left: 3%;
 	padding-right: 3%;
 	height: 200px;
-	border-right: 1px dotted #535455;
+	border-right: 1px dotted #979898;
 }
 .option:last-child {
 	border-right-style: none;
