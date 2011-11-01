@@ -1,7 +1,8 @@
 #more_description {
 	@include column-count(3);
 	@include column-gap(rhythm(2));
-	@include leader(1);
+}
+#full_statement {
 }
 .option {
 	$width: 33;
