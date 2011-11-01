@@ -1,0 +1,86 @@
+$uea_black: #535455;
+$border-style: dotted;
+
+@include establish-baseline();
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: $uea_black;
+	margin: 0 rhythm(2);
+}
+#container {
+	max-width: rhythm(33);
+	margin-right: auto;
+	margin-left: auto;	
+}
+a {
+	text-decoration: none;
+	color: #2E6EAC;
+}
+a:visited {
+	color: #7ba1c6;
+}
+a:hover {
+	text-decoration: underline;
+}
+header {
+	text-align: center;
+}
+
+h1, h2 {
+	font-weight: bold;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-weight: bold;
+	@include adjust-font-size-to($base-font-size * 4);
+	@include padding-leader(1);
+}
+h2 {
+	text-align: left;
+	@include adjust-font-size-to($base-font-size * 2);
+}
+#main {
+	text-align: center;
+	@include rhythm(4);
+	@include padding-trailer(1);
+}
+#description {
+	text-align: left;
+}
+#description p{
+	text-indent: 1em;
+}
+#more_description {
+	@include adjust-font-size-to($base-font-size * 0.9);
+	@include leading-border(2px, 1, 1.1em, $border-style);
+} 
+#options {
+	@include rhythm(1);
+	@include leading-border(1px, 1, 1em, $border-style);
+	list-style-type: none;
+}
+.option {
+	@include padding-trailer(1);
+}
+.option ul {
+	text-align: left;
+}
+.option li {
+	@include adjust-font-size-to($base-font-size * 0.9);
+	@include padding-leader(0.5);
+	p {
+		@include adjust-font-size-to($base-font-size * 0.8);
+	}
+}
+footer {
+	display: block;
+	text-align: center;
+}
+@include sticky-footer(rhythm(2), "#container", "#layout_footer");

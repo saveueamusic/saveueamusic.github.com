@@ -1,0 +1,24 @@
+#more_description {
+	@include column-count(3);
+	@include column-gap(rhythm(2));
+	@include leader(1);
+}
+.option {
+	$width: 33;
+	display: inline-block;
+	float: left;
+	width: rhythm(($width - 4) / 3);
+	height: rhythm(10);
+	padding-left: rhythm(1);
+	@include apply-side-rhythm-border(right, 1px, 1, 1em, $border-style);
+	&:first-child {
+		padding-left: rhythm(0);
+	}
+	&:last-child {
+		@include apply-side-rhythm-border(right, 0px, 0);
+	}
+	li {
+		
+	list-style-type: none;
+	}
+}
