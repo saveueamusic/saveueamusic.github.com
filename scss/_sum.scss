@@ -46,9 +46,13 @@ h2 {
 	text-align: left;
 	@include adjust-font-size-to($base-font-size * 2);
 }
+#logo {
+	@include leader(2);
+	text-align:center;
+}
 #main {
 	text-align: center;
-	@include rhythm(4);
+	@include leader(3);
 	@include padding-trailer(1);
 }
 #description {
@@ -106,5 +110,13 @@ h2 {
 footer {
 	display: block;
 	text-align: center;
+  	background: url("../images/Logo_small.png") no-repeat center top;
+a {
+	position: absolute;
+	bottom: 2em;
+	right: 0;
+	left: 0;
 }
-@include sticky-footer(rhythm(2), "#container", "#layout_footer");
+
+}
+@include sticky-footer(rhythm(7), "#container", "#layout_footer");

@@ -438,26 +438,29 @@ h2 {
 }
 
 /* line 49, ../scss/_sum.scss */
+#logo {
+  margin-top: 3em;
+  text-align: center;
+}
+
+/* line 53, ../scss/_sum.scss */
 #main {
   text-align: center;
-  margin-top: 6em;
-  padding-top: 0em;
-  padding-bottom: 0em;
-  margin-bottom: 0em;
+  margin-top: 4.5em;
   padding-bottom: 1.5em;
 }
 
-/* line 54, ../scss/_sum.scss */
+/* line 58, ../scss/_sum.scss */
 #description {
   text-align: left;
 }
 
-/* line 57, ../scss/_sum.scss */
+/* line 61, ../scss/_sum.scss */
 #description p {
   text-indent: 1em;
 }
 
-/* line 60, ../scss/_sum.scss */
+/* line 64, ../scss/_sum.scss */
 #more_description {
   font-size: 0.9em;
   line-height: 1.667em;
@@ -467,7 +470,7 @@ h2 {
   margin-top: 1.5em;
 }
 
-/* line 65, ../scss/_sum.scss */
+/* line 69, ../scss/_sum.scss */
 #full_statement {
   text-align: left;
   margin-top: 4.5em;
@@ -475,33 +478,33 @@ h2 {
   padding-bottom: 0em;
   margin-bottom: 0em;
 }
-/* line 68, ../scss/_sum.scss */
+/* line 72, ../scss/_sum.scss */
 #full_statement h2 {
   text-align: center;
   margin-bottom: 0.75em;
 }
-/* line 72, ../scss/_sum.scss */
+/* line 76, ../scss/_sum.scss */
 #full_statement p {
   margin-bottom: 1.5em;
   text-indent: 1em;
 }
-/* line 76, ../scss/_sum.scss */
+/* line 80, ../scss/_sum.scss */
 #full_statement dl {
   padding: 0 2em;
   margin-bottom: 1.5em;
 }
-/* line 80, ../scss/_sum.scss */
+/* line 84, ../scss/_sum.scss */
 #full_statement dt {
   font-weight: bold;
 }
-/* line 83, ../scss/_sum.scss */
+/* line 87, ../scss/_sum.scss */
 #full_statement dd {
   margin-bottom: 1.5em;
   font-size: 0.9em;
   line-height: 1.667em;
 }
 
-/* line 88, ../scss/_sum.scss */
+/* line 92, ../scss/_sum.scss */
 #options {
   margin-top: 1.5em;
   padding-top: 0em;
@@ -513,32 +516,40 @@ h2 {
   list-style-type: none;
 }
 
-/* line 93, ../scss/_sum.scss */
+/* line 97, ../scss/_sum.scss */
 .option {
   padding-bottom: 1.5em;
 }
 
-/* line 96, ../scss/_sum.scss */
+/* line 100, ../scss/_sum.scss */
 .option ul {
   text-align: left;
 }
 
-/* line 99, ../scss/_sum.scss */
+/* line 103, ../scss/_sum.scss */
 .option li {
   font-size: 0.9em;
   line-height: 1.667em;
   padding-top: 0.75em;
 }
-/* line 102, ../scss/_sum.scss */
+/* line 106, ../scss/_sum.scss */
 .option li p {
   font-size: 0.8em;
   line-height: 1.875em;
 }
 
-/* line 106, ../scss/_sum.scss */
+/* line 110, ../scss/_sum.scss */
 footer {
   display: block;
   text-align: center;
+  background: url("../images/Logo_small.png") no-repeat center top;
+}
+/* line 114, ../scss/_sum.scss */
+footer a {
+  position: absolute;
+  bottom: 2em;
+  right: 0;
+  left: 0;
 }
 
 /* line 10, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
@@ -552,18 +563,18 @@ html, body {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin-bottom: -3em;
+  margin-bottom: -10.5em;
 }
 /* line 18, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #container #layout_footer {
-  height: 3em;
+  height: 10.5em;
 }
 
 /* line 20, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #footer {
   clear: both;
   position: relative;
-  height: 3em;
+  height: 10.5em;
 }
 
 /* =============================================================================
