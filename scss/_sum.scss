@@ -1,5 +1,5 @@
 $uea_black: #535455;
-$border-style: dotted;
+$border-style: solid;
 
 @include establish-baseline();
 
@@ -53,7 +53,6 @@ h2 {
 #main {
 	text-align: center;
 	@include leader(3);
-	@include padding-trailer(1);
 }
 #description {
 	text-align: left;
@@ -63,7 +62,7 @@ h2 {
 }
 #more_description {
 	@include adjust-font-size-to($base-font-size * 0.9);
-	@include leading-border(2px, 1, 1.1em, $border-style);
+	@include leading-border(2px, 1, 1.1em, dotted);
 	@include leader(1);
 } 
 #full_statement {
@@ -90,8 +89,9 @@ h2 {
 	}
 } 
 #options {
-	@include rhythm(1);
-	@include leading-border(1px, 1, 1em, $border-style);
+	@include leader(1);
+	@include leading-border(1px, 1, 1em, dotted);
+		@include trailer(3);
 	list-style-type: none;
 }
 .option {

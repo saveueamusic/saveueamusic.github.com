@@ -447,20 +447,19 @@ h2 {
 #main {
   text-align: center;
   margin-top: 4.5em;
-  padding-bottom: 1.5em;
 }
 
-/* line 58, ../scss/_sum.scss */
+/* line 57, ../scss/_sum.scss */
 #description {
   text-align: left;
 }
 
-/* line 61, ../scss/_sum.scss */
+/* line 60, ../scss/_sum.scss */
 #description p {
   text-indent: 1em;
 }
 
-/* line 64, ../scss/_sum.scss */
+/* line 63, ../scss/_sum.scss */
 #more_description {
   font-size: 0.9em;
   line-height: 1.667em;
@@ -470,7 +469,7 @@ h2 {
   margin-top: 1.5em;
 }
 
-/* line 69, ../scss/_sum.scss */
+/* line 68, ../scss/_sum.scss */
 #full_statement {
   text-align: left;
   margin-top: 4.5em;
@@ -478,41 +477,39 @@ h2 {
   padding-bottom: 0em;
   margin-bottom: 0em;
 }
-/* line 72, ../scss/_sum.scss */
+/* line 71, ../scss/_sum.scss */
 #full_statement h2 {
   text-align: center;
   margin-bottom: 0.75em;
 }
-/* line 76, ../scss/_sum.scss */
+/* line 75, ../scss/_sum.scss */
 #full_statement p {
   margin-bottom: 1.5em;
   text-indent: 1em;
 }
-/* line 80, ../scss/_sum.scss */
+/* line 79, ../scss/_sum.scss */
 #full_statement dl {
   padding: 0 2em;
   margin-bottom: 1.5em;
 }
-/* line 84, ../scss/_sum.scss */
+/* line 83, ../scss/_sum.scss */
 #full_statement dt {
   font-weight: bold;
 }
-/* line 87, ../scss/_sum.scss */
+/* line 86, ../scss/_sum.scss */
 #full_statement dd {
   margin-bottom: 1.5em;
   font-size: 0.9em;
   line-height: 1.667em;
 }
 
-/* line 92, ../scss/_sum.scss */
+/* line 91, ../scss/_sum.scss */
 #options {
   margin-top: 1.5em;
-  padding-top: 0em;
-  padding-bottom: 0em;
-  margin-bottom: 0em;
   border-top-style: dotted;
   border-top-width: 1px;
   padding-top: 23px;
+  margin-bottom: 4.5em;
   list-style-type: none;
 }
 
@@ -679,12 +676,10 @@ html, body {
   .option {
     display: inline-block;
     float: left;
-    width: 14.5em;
+    width: 15.5em;
     height: 15em;
-    padding-left: 1.5em;
-    border-right-style: dotted;
-    border-right-width: 1px;
-    padding-right: 23px;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
   }
   /* line 15, ../scss/_768+.scss */
   .option:first-child {
@@ -692,12 +687,19 @@ html, body {
   }
   /* line 18, ../scss/_768+.scss */
   .option:last-child {
-    border-right-style: solid;
-    border-right-width: 0em;
     padding-right: 0em;
   }
   /* line 21, ../scss/_768+.scss */
+  .option ul {
+    border-top-style: solid;
+    border-top-width: 1px;
+    padding-top: -1px;
+  }
+  /* line 25, ../scss/_768+.scss */
   .option li {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-bottom: 11px;
     list-style-type: none;
   }
 }

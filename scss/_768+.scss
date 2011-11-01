@@ -8,18 +8,22 @@
 	$width: 33;
 	display: inline-block;
 	float: left;
-	width: rhythm(($width - 4) / 3);
+	width: rhythm(($width - 2) / 3);
 	height: rhythm(10);
-	padding-left: rhythm(1);
-	@include apply-side-rhythm-border(right, 1px, 1, 1em, $border-style);
+	padding-left: rhythm(0.5);
+	padding-right: rhythm(0.5);
 	&:first-child {
 		padding-left: rhythm(0);
 	}
 	&:last-child {
-		@include apply-side-rhythm-border(right, 0px, 0);
+		padding-right: rhythm(0);
+	}
+	ul {
+		
+		@include apply-side-rhythm-border(top, 1px, 0, 1em, solid);
 	}
 	li {
-		
-	list-style-type: none;
+		@include apply-side-rhythm-border(bottom, 1px, 0.5, 1em, solid);
+		list-style-type: none;
 	}
 }
