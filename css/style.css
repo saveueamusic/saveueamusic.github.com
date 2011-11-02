@@ -450,16 +450,27 @@ h2 {
 }
 
 /* line 57, ../scss/_sum.scss */
+#large-sign {
+  text-align: center;
+  border-top-style: dotted;
+  border-top-width: 1px;
+  padding-top: 23px;
+  margin-top: 0.495em;
+  font-size: 3em;
+  line-height: 1.5em;
+}
+
+/* line 63, ../scss/_sum.scss */
 #description {
   text-align: left;
 }
 
-/* line 60, ../scss/_sum.scss */
+/* line 66, ../scss/_sum.scss */
 #description p {
   text-indent: 1em;
 }
 
-/* line 63, ../scss/_sum.scss */
+/* line 69, ../scss/_sum.scss */
 #more_description {
   font-size: 0.9em;
   line-height: 1.667em;
@@ -469,7 +480,7 @@ h2 {
   margin-top: 1.5em;
 }
 
-/* line 68, ../scss/_sum.scss */
+/* line 74, ../scss/_sum.scss */
 #full_statement {
   text-align: left;
   margin-top: 4.5em;
@@ -477,71 +488,71 @@ h2 {
   padding-bottom: 0em;
   margin-bottom: 0em;
 }
-/* line 71, ../scss/_sum.scss */
+/* line 77, ../scss/_sum.scss */
 #full_statement h2 {
   text-align: center;
   margin-bottom: 0.75em;
 }
-/* line 75, ../scss/_sum.scss */
+/* line 81, ../scss/_sum.scss */
 #full_statement p {
   margin-bottom: 1.5em;
   text-indent: 1em;
 }
-/* line 79, ../scss/_sum.scss */
+/* line 85, ../scss/_sum.scss */
 #full_statement dl {
   padding: 0 2em;
   margin-bottom: 1.5em;
 }
-/* line 83, ../scss/_sum.scss */
+/* line 89, ../scss/_sum.scss */
 #full_statement dt {
   font-weight: bold;
 }
-/* line 86, ../scss/_sum.scss */
+/* line 92, ../scss/_sum.scss */
 #full_statement dd {
   margin-bottom: 1.5em;
   font-size: 0.9em;
   line-height: 1.667em;
 }
 
-/* line 91, ../scss/_sum.scss */
+/* line 97, ../scss/_sum.scss */
 #options {
   margin-top: 1.5em;
   border-top-style: dotted;
   border-top-width: 1px;
-  padding-top: 23px;
+  padding-top: 71px;
   margin-bottom: 4.5em;
   list-style-type: none;
 }
 
-/* line 97, ../scss/_sum.scss */
+/* line 103, ../scss/_sum.scss */
 .option {
   padding-bottom: 1.5em;
 }
 
-/* line 100, ../scss/_sum.scss */
+/* line 106, ../scss/_sum.scss */
 .option ul {
   text-align: left;
 }
 
-/* line 103, ../scss/_sum.scss */
+/* line 109, ../scss/_sum.scss */
 .option li {
   font-size: 0.9em;
   line-height: 1.667em;
   padding-top: 0.75em;
 }
-/* line 106, ../scss/_sum.scss */
+/* line 112, ../scss/_sum.scss */
 .option li p {
   font-size: 0.8em;
   line-height: 1.875em;
 }
 
-/* line 110, ../scss/_sum.scss */
+/* line 116, ../scss/_sum.scss */
 footer {
   display: block;
   text-align: center;
   background: url("../images/Logo_small.png") no-repeat center top;
 }
-/* line 114, ../scss/_sum.scss */
+/* line 120, ../scss/_sum.scss */
 footer a {
   position: absolute;
   bottom: 2em;

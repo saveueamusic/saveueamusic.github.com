@@ -54,6 +54,12 @@ h2 {
 	text-align: center;
 	@include leader(3);
 }
+#large-sign{
+	text-align: center;
+	@include leading-border(1px, 1, 1em, dotted);
+	@include leader(0.33);
+	@include adjust-font-size-to($base-font-size * 3);
+}
 #description {
 	text-align: left;
 }
@@ -90,7 +96,7 @@ h2 {
 } 
 #options {
 	@include leader(1);
-	@include leading-border(1px, 1, 1em, dotted);
+	@include leading-border(1px, 3, 1em, dotted);
 		@include trailer(3);
 	list-style-type: none;
 }
