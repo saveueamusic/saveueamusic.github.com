@@ -374,82 +374,91 @@ html > body {
   font-size: 16px;
 }
 
-/* line 6, ../scss/_sum.scss */
+/* line 7, ../scss/_sum.scss */
 body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd {
   margin: 0;
   padding: 0;
 }
 
-/* line 10, ../scss/_sum.scss */
+/* line 11, ../scss/_sum.scss */
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #535455;
   margin: 0 3em;
 }
 
-/* line 15, ../scss/_sum.scss */
+/* line 16, ../scss/_sum.scss */
 #container {
   max-width: 49.5em;
   margin-right: auto;
   margin-left: auto;
 }
 
-/* line 20, ../scss/_sum.scss */
+/* line 21, ../scss/_sum.scss */
 a {
   text-decoration: none;
-  color: #2E6EAC;
+  color: #2e6eac;
 }
 
-/* line 24, ../scss/_sum.scss */
+/* line 25, ../scss/_sum.scss */
 a:visited {
-  color: #7ba1c6;
+  color: #2e6eac;
 }
 
-/* line 27, ../scss/_sum.scss */
+/* line 28, ../scss/_sum.scss */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 30, ../scss/_sum.scss */
+/* line 31, ../scss/_sum.scss */
 header {
   text-align: center;
 }
 
-/* line 34, ../scss/_sum.scss */
+/* line 35, ../scss/_sum.scss */
 h1, h2 {
   font-weight: bold;
   font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
   text-transform: uppercase;
 }
 
-/* line 40, ../scss/_sum.scss */
+/* line 41, ../scss/_sum.scss */
 h1 {
   font-weight: bold;
   font-size: 4em;
   line-height: 1.125em;
   padding-top: 1.5em;
 }
-
 /* line 45, ../scss/_sum.scss */
+h1 a {
+  color: #535455;
+}
+/* line 47, ../scss/_sum.scss */
+h1 a:hover {
+  text-decoration: none;
+  color: #2e6eac;
+}
+
+/* line 53, ../scss/_sum.scss */
 h2 {
   text-align: left;
   font-size: 2em;
   line-height: 1.5em;
 }
 
-/* line 49, ../scss/_sum.scss */
+/* line 57, ../scss/_sum.scss */
 #logo {
   margin-top: 3em;
   text-align: center;
 }
 
-/* line 53, ../scss/_sum.scss */
+/* line 61, ../scss/_sum.scss */
 #main {
   text-align: center;
   margin-top: 4.5em;
 }
 
-/* line 57, ../scss/_sum.scss */
+/* line 65, ../scss/_sum.scss */
 #large-sign {
   text-align: center;
   border-top-style: dotted;
@@ -460,17 +469,17 @@ h2 {
   line-height: 1.5em;
 }
 
-/* line 63, ../scss/_sum.scss */
+/* line 71, ../scss/_sum.scss */
 #description {
   text-align: left;
 }
 
-/* line 66, ../scss/_sum.scss */
+/* line 74, ../scss/_sum.scss */
 #description p {
   text-indent: 1em;
 }
 
-/* line 69, ../scss/_sum.scss */
+/* line 77, ../scss/_sum.scss */
 #more_description {
   font-size: 0.9em;
   line-height: 1.667em;
@@ -480,7 +489,7 @@ h2 {
   margin-top: 1.5em;
 }
 
-/* line 74, ../scss/_sum.scss */
+/* line 82, ../scss/_sum.scss */
 #full_statement {
   text-align: left;
   margin-top: 4.5em;
@@ -488,33 +497,33 @@ h2 {
   padding-bottom: 0em;
   margin-bottom: 0em;
 }
-/* line 77, ../scss/_sum.scss */
+/* line 85, ../scss/_sum.scss */
 #full_statement h2 {
   text-align: center;
   margin-bottom: 0.75em;
 }
-/* line 81, ../scss/_sum.scss */
+/* line 89, ../scss/_sum.scss */
 #full_statement p {
   margin-bottom: 1.5em;
   text-indent: 1em;
 }
-/* line 85, ../scss/_sum.scss */
+/* line 93, ../scss/_sum.scss */
 #full_statement dl {
   padding: 0 2em;
   margin-bottom: 1.5em;
 }
-/* line 89, ../scss/_sum.scss */
+/* line 97, ../scss/_sum.scss */
 #full_statement dt {
   font-weight: bold;
 }
-/* line 92, ../scss/_sum.scss */
+/* line 100, ../scss/_sum.scss */
 #full_statement dd {
   margin-bottom: 1.5em;
   font-size: 0.9em;
   line-height: 1.667em;
 }
 
-/* line 97, ../scss/_sum.scss */
+/* line 105, ../scss/_sum.scss */
 #options {
   margin-top: 1.5em;
   border-top-style: dotted;
@@ -524,40 +533,42 @@ h2 {
   list-style-type: none;
 }
 
-/* line 103, ../scss/_sum.scss */
+/* line 111, ../scss/_sum.scss */
 .option {
   padding-bottom: 1.5em;
 }
 
-/* line 106, ../scss/_sum.scss */
+/* line 114, ../scss/_sum.scss */
 .option ul {
   text-align: left;
 }
 
-/* line 109, ../scss/_sum.scss */
+/* line 117, ../scss/_sum.scss */
 .option li {
   font-size: 0.9em;
   line-height: 1.667em;
   padding-top: 0.75em;
 }
-/* line 112, ../scss/_sum.scss */
+/* line 120, ../scss/_sum.scss */
 .option li p {
   font-size: 0.8em;
   line-height: 1.875em;
 }
 
-/* line 116, ../scss/_sum.scss */
+/* line 124, ../scss/_sum.scss */
 footer {
   display: block;
   text-align: center;
   background: url("../images/Logo_small.png") no-repeat center top;
 }
-/* line 120, ../scss/_sum.scss */
+/* line 128, ../scss/_sum.scss */
 footer a {
   position: absolute;
   bottom: 2em;
   right: 0;
   left: 0;
+  font-size: 0.8em;
+  line-height: 1.875em;
 }
 
 /* line 10, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
@@ -687,26 +698,25 @@ html, body {
   .option {
     display: inline-block;
     float: left;
-    width: 15.5em;
-    height: 15em;
-    padding-left: 0.75em;
-    padding-right: 0.75em;
+    width: 11.25em;
+    padding-right: 1.5em;
   }
-  /* line 15, ../scss/_768+.scss */
-  .option:first-child {
-    padding-left: 0em;
+  /* line 14, ../scss/_768+.scss */
+  .option h2 {
+    font-size: 1.5em;
+    line-height: 2em;
   }
-  /* line 18, ../scss/_768+.scss */
+  /* line 19, ../scss/_768+.scss */
   .option:last-child {
     padding-right: 0em;
   }
-  /* line 21, ../scss/_768+.scss */
+  /* line 22, ../scss/_768+.scss */
   .option ul {
     border-top-style: solid;
     border-top-width: 1px;
     padding-top: -1px;
   }
-  /* line 25, ../scss/_768+.scss */
+  /* line 26, ../scss/_768+.scss */
   .option li {
     border-bottom-style: solid;
     border-bottom-width: 1px;

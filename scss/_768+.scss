@@ -6,14 +6,15 @@
 }
 .option {
 	$width: 33;
+	$columns: 4;
 	display: inline-block;
 	float: left;
-	width: rhythm(($width - 2) / 3);
-	height: rhythm(10);
-	padding-left: rhythm(0.5);
-	padding-right: rhythm(0.5);
+	width: rhythm(($width - ($columns - 1)) / $columns );
+	padding-right: rhythm(1);
+	h2 {
+	@include adjust-font-size-to($base-font-size * 1.5);
+	}
 	&:first-child {
-		padding-left: rhythm(0);
 	}
 	&:last-child {
 		padding-right: rhythm(0);

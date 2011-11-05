@@ -1,4 +1,5 @@
 $uea_black: #535455;
+$uea_link: #2E6EAC;
 $border-style: solid;
 
 @include establish-baseline();
@@ -19,10 +20,10 @@ body {
 }
 a {
 	text-decoration: none;
-	color: #2E6EAC;
+	color: $uea_link;
 }
 a:visited {
-	color: #7ba1c6;
+	color: $uea_link;
 }
 a:hover {
 	text-decoration: underline;
@@ -41,6 +42,13 @@ h1 {
 	font-weight: bold;
 	@include adjust-font-size-to($base-font-size * 4);
 	@include padding-leader(1);
+	a {
+		color: $uea_black;
+		&:hover {
+			text-decoration: none;
+			color: $uea_link;
+		};
+	}
 }
 h2 {
 	text-align: left;
@@ -117,12 +125,12 @@ footer {
 	display: block;
 	text-align: center;
   	background: url("../images/Logo_small.png") no-repeat center top;
-a {
-	position: absolute;
-	bottom: 2em;
-	right: 0;
-	left: 0;
-}
-
+	a {
+		position: absolute;
+		bottom: 2em;
+		right: 0;
+		left: 0;
+		@include adjust-font-size-to($base-font-size * 0.8);
+	}
 }
 @include sticky-footer(rhythm(7), "#container", "#layout_footer");
