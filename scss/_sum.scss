@@ -119,20 +119,21 @@ h2 {
 	@include padding-leader(0.5);
 	p {
 		@include adjust-font-size-to($base-font-size * 0.8);
+		@include adjust-leading-to(1);
+		@include leader(0.25)
 	}
-		ul {
-			@include apply-side-rhythm-border(top, 0px, 0, 0em, none);
-			@include apply-side-rhythm-border(left, 0px, 0.8, 1em, none);
-			
-		}
-		li {
-			@include apply-side-rhythm-border(bottom, 0px, 0, 0em, none);
-			@include adjust-font-size-to($base-font-size * 0.8);
-			list-style-type: disc;
-			@include adjust-leading-to(1);
-			@include padding-leader(0.5);
-			@include padding-trailer(0);
-		}
+	ul {
+		@include apply-side-rhythm-border(top, 0px, 0, 0em, none);
+		@include apply-side-rhythm-border(left, 0px, 0.8, 1em, none);		
+	}
+	li {
+		@include apply-side-rhythm-border(bottom, 0px, 0, 0em, none);
+		@include adjust-font-size-to($base-font-size * 0.8);
+		list-style-type: disc;
+		@include adjust-leading-to(1);
+		@include padding-leader(0.5);
+		@include padding-trailer(0);
+	}
 }
 footer {
 	display: block;
