@@ -26,5 +26,6 @@
 	li {
 		@include apply-side-rhythm-border(bottom, 1px, 0.5, 1em, solid);
 		list-style-type: none;
+			@include adjust-leading-to(0.9);
 	}
 }
