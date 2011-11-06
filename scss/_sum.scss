@@ -65,6 +65,13 @@ h2 {
 	text-align: center;
 	@include leader(3);
 }
+#breaking {	
+	@include trailer(1);
+	@include leader (1);
+	text-align: center;
+	@include leading-border(1px, 1, 1em, dotted);
+	border-color: lighten($uea_black, 40%);
+}
 #large-sign{
 	text-align: center;
 	@include leading-border(1px, 1, 1em, dotted);
