@@ -92,11 +92,6 @@ h2 {
 	@include leading-border(2px, 1, 1.1em, dotted);
 	@include leader(1);
 } 
-#petition-form {
-	@include leading-border(1px, 1.5, 1em, dotted);
-	height: 50%;
-	width: 100%;
-}
 #full_statement {
 	text-align: left;
 	@include rhythm(3);
