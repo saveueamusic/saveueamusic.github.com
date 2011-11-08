@@ -2,11 +2,7 @@
 
 */
 $(function() {
-	$('#large-sign a').click(function(e){
-		e.preventDefault();
-		$('#petition-form').show();
-		$('#petition-form iframe').slideDown();
-	})
+	$('body').prepend('<a href="http://support.saveueamusic.org/" id="support_ribbon">Statements<br/>of support</a>');
 });
 
 
