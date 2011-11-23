@@ -70,9 +70,11 @@ h2 {
 	@include leader (1);
 	text-align: center;
 	@include leading-border(1px, 1, 1em, dotted);
+	@include trailing-border(1px, 1, 1em, dotted);
 	border-color: lighten($uea_black, 30%);
+	@include adjust-font-size-to($base-font-size * 1.2);
 	small {
-		@include adjust-font-size-to($base-font-size * 0.7);
+		@include adjust-font-size-to($base-font-size * 0.75);
 	}
 }
 #large-sign{
